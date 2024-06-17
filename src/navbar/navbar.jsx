@@ -24,7 +24,6 @@ export default function navbar() {
                                         <button type="submit" className="btn search-btn btn-primary" value="Search"><i className="fa-solid fa-magnifying-glass"></i></button>
                                     </form>
                                 </div>
-
                                 <div className="app-utilities col-auto">
                                     <div className="app-utility-item app-notifications-dropdown dropdown">
                                         <a className="dropdown-toggle no-toggle-arrow" id="notifications-dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" title="Notifications">
@@ -106,11 +105,9 @@ export default function navbar() {
                                                     <a className="link-mask" href="notifications.html"></a>
                                                 </div>
                                             </div>
-
                                             <div className="dropdown-menu-footer p-2 text-center">
                                                 <a href="notifications.html">View all</a>
                                             </div>
-
                                         </div>
                                     </div>
                                     <div className="app-utility-item">
@@ -121,7 +118,6 @@ export default function navbar() {
                                             </svg>
                                         </a>
                                     </div>
-
                                     <div className="app-utility-item app-user-dropdown dropdown">
                                         <a className="dropdown-toggle" id="user-dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="assets/images/user.png" alt="user profile" /></a>
                                         <ul className="dropdown-menu" aria-labelledby="user-dropdown-toggle">

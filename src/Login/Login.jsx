@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Login() {
-
+    
     const emailField = useRef()
     const passwordField = useRef()
     const navigate = useNavigate();
@@ -93,18 +93,9 @@ export default function Login() {
                                     <button type="submit" class="btn app-btn-primary w-100 theme-btn mx-auto">Log In</button>
                                 </div>
                             </form>
-
-                            <div class="auth-option text-center pt-5">No Account? Sign up <a class="text-link" href="signup.html" >here</a>.</div>
                         </div>
 
                     </div>
-
-                    <footer class="app-auth-footer">
-                        <div class="container text-center py-3">
-                            <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style={{ color: '#fb866a'}}></i> by <a class="app-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-
-                        </div>
-                    </footer>
                 </div>
             </div>
             <div class="col-12 col-md-5 col-lg-6 h-100 auth-background-col">
@@ -115,8 +106,7 @@ export default function Login() {
                     <div class="d-flex flex-column align-content-end h-100">
                         <div class="h-100"></div>
                         <div class="overlay-content p-3 p-lg-4 rounded">
-                            <h5 class="mb-3 overlay-title">Explore Portal Admin Template</h5>
-                            <div>Portal is a free Bootstrap 5 admin dashboard template. You can download and view the template license</div>
+                            <h5 class="mb-3 overlay-title">Admin Dashboard for THE ATHLETIC APP</h5>
                         </div>
                     </div>
                 </div>

@@ -7,8 +7,7 @@ export default function statistiques() {
     return (
         <>
                 <StatsNum1 />
-                <StatsNum3 />
-                <StatsNum2 />
+                {/* <StatsNum2 /> */}
         </>
     )
 }
